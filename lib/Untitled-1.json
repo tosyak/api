@@ -1,0 +1,42 @@
+{
+    "meta" : {
+        "href" : "https://online.moysklad.ru/api/remap/1.2/entity/processing/48c3f2e2-b683-11ec-0a80-0d820012aeac",
+        "metadataHref" : "https://online.moysklad.ru/api/remap/1.2/entity/processing/metadata",
+        "type" : "processing",
+        "mediaType" : "application/json",
+        "uuidHref" : "https://online.moysklad.ru/app/#processing/edit?id=48c3f2e2-b683-11ec-0a80-0d820012aeac"
+      },
+      "id" : "48c3f2e2-b683-11ec-0a80-0d820012aeac",
+      "accountId" : "6a008b41-a274-11e7-7a69-971100007d90",
+    "products" : {
+        //      ^
+        //      |
+        // json который получаю по ссылке ниже всталяю в ключ products ()
+        //
+        "meta" : {
+          "href" : "https://online.moysklad.ru/api/remap/1.2/entity/processing/48c3f2e2-b683-11ec-0a80-0d820012aeac/products",
+          //                                 ^  
+          //                                 |
+          // для этой сслыки модель ProcessingProducts
+          //
+          "type" : "processingpositionresult",
+          "mediaType" : "application/json",
+          "size" : 1,
+          "limit" : 1000,
+          "offset" : 0
+        }
+      },
+      "materials" : {
+        "meta" : {
+          "href" : "https://online.moysklad.ru/api/remap/1.2/entity/processing/48c3f2e2-b683-11ec-0a80-0d820012aeac/materials",
+          //
+          // для этой ссылки модель processingMaterials
+          //
+          "type" : "processingpositionresult",
+          "mediaType" : "application/json",
+          "size" : 1,
+          "limit" : 1000,
+          "offset" : 0
+        }
+      },
+}
