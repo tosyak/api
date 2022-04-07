@@ -1,16 +1,7 @@
-# api
+В файле Json в \Lib пример того что я получаю от сервера.
 
-A new Flutter project.
+в первом запросе я получаю processing (модель Processing)
+из этого json из ключей materials и products беру ссылки и по этим ссылкам делаю запросы 2 (fetchProcessingMaterials()) и 3 (fetchProcessingProducts()) и получаю json (модели ProcessingMaterials и ProcessingProducts)
 
-## Getting Started
+полученные данные из запросов 2 и 3 нужно вставить в json из 1го запроса вместо значений ключей "materials" и "products"
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
